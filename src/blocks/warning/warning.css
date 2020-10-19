@@ -1,0 +1,13 @@
+@import url("__starlight/warning__starlight.css");
+
+.warning {
+  padding-top: 30px;
+  margin: 0 auto;
+  max-width: calc(100vw - 168px);
+}
+
+@media screen and (max-width:909px) {
+  .warning {
+    max-width: calc(100vw - 108px);
+  }
+}
