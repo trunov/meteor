@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.174f227a.chunk.css",
+    "main.js": "./static/js/main.37ad63c0.chunk.js",
+    "main.js.map": "./static/js/main.37ad63c0.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f52536fe.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f52536fe.js.map",
+    "static/js/2.bfb7f4de.chunk.js": "./static/js/2.bfb7f4de.chunk.js",
+    "static/js/2.bfb7f4de.chunk.js.map": "./static/js/2.bfb7f4de.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.670bcbff5effd17001f821c93b6bfaf3.js": "./precache-manifest.670bcbff5effd17001f821c93b6bfaf3.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.174f227a.chunk.css.map": "./static/css/main.174f227a.chunk.css.map",
+    "static/js/2.bfb7f4de.chunk.js.LICENSE.txt": "./static/js/2.bfb7f4de.chunk.js.LICENSE.txt",
+    "static/media/index.css": "./static/media/roboto-regular-webfont.b588af60.woff",
+    "static/media/about.svg": "./static/media/about.b8dab8bc.svg",
+    "static/media/header.png": "./static/media/header.3751f382.png",
+    "static/media/meteor_header.svg": "./static/media/meteor_header.60088e59.svg",
+    "static/media/union.svg": "./static/media/union.63fd1f2e.svg",
+    "static/media/vec.svg": "./static/media/vec.66c8247a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f52536fe.js",
+    "static/js/2.bfb7f4de.chunk.js",
+    "static/css/main.174f227a.chunk.css",
+    "static/js/main.37ad63c0.chunk.js"
+  ]
+}
