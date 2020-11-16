@@ -1,0 +1,8 @@
+.header__language__button_active {
+  filter: drop-shadow(3px 5px 10px #000000);
+  width: 36px;
+  height: 36px;
+  background-image: url("../../../../../images/ellipse.svg");
+  background-repeat: no-repeat;
+  color: #fff;
+}

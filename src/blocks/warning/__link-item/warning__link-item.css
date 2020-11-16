@@ -1,0 +1,10 @@
+.warning__link-item {
+  margin: 0 60px 0 0;     
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.warning__link-item:last-of-type {
+  margin: 0;
+}

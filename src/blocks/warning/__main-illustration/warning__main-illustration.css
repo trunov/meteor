@@ -1,0 +1,9 @@
+.warning__main-illustration {
+  position: absolute;
+  right: 4%;
+  top: -4px;
+  left: 32%;
+  max-width: calc(100vw - 500px);
+  height: calc(100vh - 80px);
+  z-index: 0;
+}

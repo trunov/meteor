@@ -1,5 +1,11 @@
+@import url("./_span/warning__starlight_span.css");
+
 .warning__starlight {
-  font-family: 'Encode';
-  font-size: 44px;
-  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 60px;
+  font-weight: 700;
+  max-width: 698px;
+  min-height: 140px;
+  text-transform: uppercase;
+  margin: 68px 0 54px;
 }

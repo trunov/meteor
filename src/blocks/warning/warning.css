@@ -1,9 +1,17 @@
 @import url("__starlight/warning__starlight.css");
+@import url("__image/warning__image.css");
+@import url("__wrap/warning__wrap.css");
+@import url("__main-illustration/warning__main-illustration.css");
+@import url("__button/warning__button.css");
+@import url("__links/warning__links.css");
+@import url("__link-item/warning__link-item.css");
+@import url("__social-icon/warning__social-icon.css");
+@import url("__link/warning__link.css");
 
 .warning {
-  padding-top: 30px;
+  padding: 120px 0 50px;
   margin: 0 auto;
-  max-width: calc(100vw - 168px);
+  max-width: calc(100vw - 300px);
 }
 
 @media screen and (max-width:909px) {

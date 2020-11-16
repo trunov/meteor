@@ -1,5 +1,12 @@
 @import url('./vendor/normalize.css');
 @import url('./blocks/page/page.css');
 @import url('./fonts/fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('./blocks/header/header.css');
 @import url('./blocks/warning/warning.css');
+@import url("./blocks/header/__language/__button/_active/header__language__button_active.css");
+@import url("./blocks/about/about.css");
+
+body {
+  overscroll-behavior-y: none;
+}

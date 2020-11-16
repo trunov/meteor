@@ -1,0 +1,16 @@
+@import url("./__info/about__info.css");
+@import url("./__paragraph/about__paragraph.css");
+@import url("./__image/about__image.css");
+@import url("./__wrap/about__wrap.css");
+
+.about {
+  padding: 0 0 180px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: calc(100vw - 300px);
+  display: flex;
+  z-index: 1;
+  position: relative;
+  font-family: 'Roboto';
+  justify-content: space-between;
+}

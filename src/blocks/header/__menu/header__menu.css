@@ -1,0 +1,10 @@
+.header__menu {
+  background-image: url("../../../images/menu.svg");
+  background-repeat: no-repeat;
+  padding: 0;
+  border: none;
+  width: 48px;
+  height: 36px;
+  background-color: transparent;
+  cursor: pointer;
+}
