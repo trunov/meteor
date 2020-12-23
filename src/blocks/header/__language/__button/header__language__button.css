@@ -5,4 +5,9 @@
  border: none;
  background-color: transparent;
  cursor: pointer;
+ text-decoration: none;
+}
+
+.header__language__button:first-of-type {
+  margin-right: 8px;
 }

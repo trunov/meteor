@@ -1,0 +1,19 @@
+.services__header {
+  font-size: 60px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #3bb6e8;
+  display: inline-block;
+  position: relative;
+  /* border-bottom: 2px solid #3BB6E8; */
+  margin: 0 0 10px 0;
+}
+
+.services__header:after {
+  position: absolute;
+  content: '';
+  border-bottom: 2px solid #3BB6E8;
+  width: calc(100vw - 300px);
+  bottom: -15px;
+  left: 0%;
+}

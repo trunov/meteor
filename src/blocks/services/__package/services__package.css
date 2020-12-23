@@ -1,0 +1,50 @@
+@import url("./__info/services__package__info.css");
+@import url("./__paragraph/services__package__paragraph.css");
+
+.services__package {
+  width: 360px;
+  height: 360px;
+  background-color: #D32033;
+  color: #fff;
+  list-style-type: none;
+  text-align: center;
+  border-radius: 25px;
+  flex-grow: 1;
+  margin: 0 20px 20px 0px;
+}
+
+.services__package:first-of-type {
+  background-color: #FDCC0D;
+  color: #000;
+}
+
+.services__package:last-of-type {
+  background-color: #3BB6E8;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1419px) {
+  .services__package:nth-of-type(2) {
+   margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  .services__package:first-of-type {
+    margin-right: 0px;
+  }
+  .services__package:nth-of-type(2) {
+    margin-right: 20px;
+   }
+}
+
+@media screen and (max-width: 1019px) {
+  .services__package:first-of-type {
+    margin-right: 0px;
+  }
+
+  .services__package:nth-of-type(2) {
+    margin-right: 0px;
+   }
+}

@@ -1,19 +1,13 @@
 import React from "react";
 
-import { TranslationContext } from "../../context/TranslationContext";
+import { TranslationContext } from "../context/TranslationContext";
 
-import SvgMeteorHeader from "../SvgMeteorHeader/SvgMeteorHeader";
-
-// import logo from "../../images/meteor_header.svg";
-import union from "../../images/union.svg";
-import ul from "../../images/vec.svg";
-
-function Warning() {
+function Portfolio() {
   const translation = React.useContext(TranslationContext);
 
   return (
-    <section className="warning">
-      <div className="warning__wrap">
+    <section className="portfolio">
+      {/* <div className="warning__wrap">
         <div className="warning__subsection">
           <h1 className="warning__starlight">
             {translation.title_word1}
@@ -64,9 +58,9 @@ function Warning() {
         className="warning__main-illustration"
         src={union}
         alt="main-illustration"
-      />
+      /> */}
     </section>
   );
 }
 
-export default Warning;
+export default Portfolio;

@@ -1,4 +1,6 @@
 .about__image {
-  width: 570px;
-  height: 358px;
+  /* width: calc(100vw);
+  
+  margin-left: calc(100vw - 1190px); */
+
 }

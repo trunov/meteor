@@ -1,0 +1,6 @@
+.services__wrap {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}

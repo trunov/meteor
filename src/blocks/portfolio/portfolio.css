@@ -1,0 +1,9 @@
+.portfolio {
+  padding: 0 0 180px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: calc(100vw - 300px);
+  z-index: 1;
+  position: relative;
+  font-family: 'Roboto';
+}

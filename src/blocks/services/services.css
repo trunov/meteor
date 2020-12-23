@@ -1,0 +1,15 @@
+@import url("./__info/services__info.css");
+@import url("./__header/services__header.css");
+@import url("./__wrap/services__wrap.css");
+@import url("./__paragraph/services__paragraph.css");
+@import url("./__package/services__package.css");
+
+.services {
+  padding: 0 0 180px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: calc(100vw - 300px);
+  z-index: 1;
+  position: relative;
+  font-family: 'Roboto';
+}
