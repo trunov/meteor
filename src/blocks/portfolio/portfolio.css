@@ -1,3 +1,12 @@
+@import url("./__wrap/portfolio__wrap.css");
+@import url("./__package/portfolio__package.css");
+@import url("./__package/__info/portfolio__package__info.css");
+@import url("./__package/__paragraph/portfolio__package__paragraph.css");
+@import url("./__image/portfolio__image.css");
+@import url("./__header/portfolio__header.css");
+@import url("./__button/portfolio__button.css");
+@import url("./__button/__wraper/portfolio__button__wraper.css");
+
 .portfolio {
   padding: 0 0 180px;
   box-sizing: border-box;
