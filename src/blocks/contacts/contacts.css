@@ -1,0 +1,15 @@
+@import url("./__header/contacts__header.css");
+@import url("./__wraper/contacts__wraper.css");
+@import url("./__image/contacts__image.css");
+@import url("./__main/contacts__main.css");
+@import url("./__mail/contacts__mail.css");
+
+.contacts {
+  padding: 180px 0 100px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: calc(100vw - 300px);
+  font-family: 'Roboto';
+  overflow: hidden;
+  position: relative;
+}

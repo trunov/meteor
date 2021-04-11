@@ -3,8 +3,6 @@ import { Route, Switch, useHistory, matchPath } from "react-router-dom";
 import Header from "./Header";
 import Starlight from "./Starlight/Starlight";
 
-import Services from "./Services/Services";
-
 import {
   TranslationContext,
   translations,

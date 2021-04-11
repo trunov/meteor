@@ -1,5 +1,19 @@
 .portfolio__package {
- background-color: #17ABA7;
+ background-color: #3BB6E8;
  list-style-type: none;
  border-radius: 25px;
+}
+
+
+.portfolio__package:nth-of-type(2) {
+  background-color: #CF1487;
+}
+
+.portfolio__package:nth-of-type(3) {
+  background-color: #FBD906;
+  color: #000;
+}
+
+.portfolio__package:nth-of-type(4) {
+  background-color: #17ABA7;
 }

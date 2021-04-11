@@ -8,7 +8,7 @@
 @import url("./__button/__wraper/portfolio__button__wraper.css");
 
 .portfolio {
-  padding: 0 0 180px;
+  padding: 0 0 0;
   box-sizing: border-box;
   margin: 0 auto;
   max-width: calc(100vw - 300px);

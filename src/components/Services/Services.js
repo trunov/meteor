@@ -7,22 +7,19 @@ function Services() {
 
   return (
     <section className="services">
-      <h2 className="services__header">Services</h2>
-      <h3 className="services__info">Single Page Development</h3>
+      <h2 className="services__header">{translation.services__header}</h2>
+      <h3 className="services__info">{translation.services__info}</h3>
       <p className="services__paragraph">
-        Single Page Development is a one-page website adapted to promote a
-        specific product or service. The special structure of the landing page
-        stimulates the user to perceive the given information faster and make
-        purchases.
+      {translation.services__paragraph}
       </p>
       <ul className="services__wrap">
         <li className="services__package">
-          <h3 className="services__package__info">Minimum</h3>
-          <p className="services__package__paragraph">- Selling prototype</p>
-          <p className="services__package__paragraph">- Copywriting - text</p>
-          <p className="services__package__paragraph">- Selling prototype</p>
-          <p className="services__package__paragraph">- Copywriting - text</p>
-          <p className="services__package__paragraph">220&euro;</p>
+          <h3 className="services__package__info">{translation.services__package__info1}</h3>
+          <p className="services__package__paragraph">{translation.services__package__p1}</p>
+          <p className="services__package__paragraph">{translation.services__package__p2}</p>
+          <p className="services__package__paragraph">{translation.services__package__p3}</p>
+          <p className="services__package__paragraph">{translation.services__package__p4}</p>
+          <p className="services__package__paragraph">{translation.services__package__p5}</p>
         </li>
         <li className="services__package">
           <h3 className="services__package__info">Standard</h3>

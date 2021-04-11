@@ -1,20 +1,19 @@
 import React from "react";
 
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import logo from "../images/header.png";
+import Meteor from "./Meteor";
+
 
 function Header({ onEnButton, onRuButton, isEnClicked, isRuClicked }) {
   return (
     <header className="header">
-      <Link exact to="/" className="header__wrap_one">
+      <Meteor />
+      {/* <Link exact to="/" className="header__wrap_one">
         <img src={logo} alt="логотип" className="header__logo" />
         <h1 className="header__text">METEOR</h1>
-      </Link>
-      {/* <div className="header__wrap_one">
-        <img src={logo} alt="логотип" className="header__logo" />
-        <h1 className="header__text">METEOR</h1>
-      </div> */}
+      </Link> */}
+
       <div className="header__wrap_two">
         <a className="header__phone" href="tel:+37256691780">
           +372 5669 1780

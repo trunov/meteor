@@ -1,0 +1,10 @@
+.contacts__image {
+  position: absolute;
+
+  top: -150px;
+  left: 14%;
+
+  max-width: calc(100vw - 400px);
+  height: 100vh;
+  z-index: 0;
+}

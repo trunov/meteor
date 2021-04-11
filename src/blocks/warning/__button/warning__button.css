@@ -17,6 +17,7 @@
   background-size: 300% 300%;
   z-index: 1;
   position: relative;
+  letter-spacing: 1px;
  }
 
  .warning__button::before {

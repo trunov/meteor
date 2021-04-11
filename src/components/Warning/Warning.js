@@ -4,9 +4,10 @@ import { TranslationContext } from "../../context/TranslationContext";
 
 import SvgMeteorHeader from "../SvgMeteorHeader/SvgMeteorHeader";
 
+import WarningList from "../WarningList";
+
 // import logo from "../../images/meteor_header.svg";
 import union from "../../images/union.svg";
-import ul from "../../images/vec.svg";
 
 function Warning() {
   const translation = React.useContext(TranslationContext);
@@ -35,26 +36,7 @@ function Warning() {
             {translation.warning_button}
           </button>
 
-          <ul className="warning__links">
-            <li className="warning__link-item">
-              <img src={ul} alt="git" className="warning__social-icon" />
-              <a href="#" target="_blank" className="warning__link">
-                Git
-              </a>
-            </li>
-            <li className="warning__link-item">
-              <img src={ul} alt="telegram" className="warning__social-icon" />
-              <a href="#" target="_blank" className="warning__link">
-                Telegram
-              </a>
-            </li>
-            <li className="warning__link-item">
-              <img src={ul} alt="facebook" className="warning__social-icon" />
-              <a href="#" target="_blank" className="warning__link">
-                Facebook
-              </a>
-            </li>
-          </ul>
+          <WarningList />
         </div>
       <div>
       <SvgMeteorHeader />

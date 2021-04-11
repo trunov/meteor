@@ -1,0 +1,10 @@
+.contacts__mail {
+  text-decoration: none;
+  color: #3BB6E8;
+  transition: color 0.1s linear;
+  margin-left: 4px;
+}
+
+.contacts__mail:hover {
+  color: #A6A3A3;
+}

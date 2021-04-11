@@ -8,6 +8,8 @@ import Services from "../Services/Services";
 
 import Portfolio from "../Portfolio/Portfolio";
 
+import Contacts from "../Contacts/Contacts";
+
 function Starlight() {
   return (
     <main className="content">
@@ -15,6 +17,7 @@ function Starlight() {
       <About />
       <Services />
       <Portfolio />
+      <Contacts />
     </main>
   );
 }
